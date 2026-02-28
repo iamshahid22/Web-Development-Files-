@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+
+<body>
+
+    <h1 style="text-align:center;">Student Registration Form</h1>
+
+    <form>
+        <table align="center" border="0" cellpadding="10">
+
+            <!-- Student Name -->
+            <tr>
+                <td>Student Name</td>
+                <td colspan="3">
+                    <input type="text" placeholder="Enter your name" size="50">
+                </td>
+            </tr>
+
+            <!-- Mobile + Email -->
+            <tr>
+                <td>Mobile No.</td>
+                <td><input type="number" placeholder="Enter mobile" size="25"></td>
+
+                <td>Email Id</td>
+                <td><input type="email" placeholder="Enter email" size="25"></td>
+            </tr>
+
+            <!-- Father + Mother -->
+            <tr>
+                <td>Father Name</td>
+                <td><input type="text" placeholder="Enter father name" size="25"></td>
+
+                <td>Mother Name</td>
+                <td><input type="text" placeholder="Enter mother name" size="25"></td>
+            </tr>
+
+            <!-- Course + DOB -->
+            <tr>
+                <td>Select Course</td>
+                <td>
+                    <select>
+                        <option>Select...</option>
+                        <option>B.Tech</option>
+                        <option>BCA</option>
+                        <option>MBA</option>
+                        <option>Diploma</option>
+                    </select>
+                </td>
+
+                <td>Date Of Birth</td>
+                <td><input type="date"></td>
+            </tr>
+
+            <!-- Gender + Photo -->
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female
+                </td>
+
+                <td>Student Photo</td>
+                <td><input type="file"></td>
+            </tr>
+
+            <!-- Branch -->
+            <tr>
+                <td>Select Branch</td>
+                <td colspan="3">
+                    <input type="checkbox"> CSE
+                    <input type="checkbox"> IT
+                    <input type="checkbox"> ECE
+                    <input type="checkbox"> Civil
+                </td>
+            </tr>
+
+            <!-- Address -->
+            <tr>
+                <td>Address</td>
+                <td colspan="3">
+                    <textarea rows="5" cols="55" placeholder="Enter your address"></textarea>
+                </td>
+            </tr>
+
+            <!-- Submit -->
+            <tr>
+                <td colspan="4" align="center">
+                    <button type="submit">Submit</button>
+                </td>
+            </tr>
+
+        </table>
+    </form>
+
+</body>
+</html>
